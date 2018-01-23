@@ -1,10 +1,1 @@
-@charset "UTF-8";
-/**
- * author: zhanghuan
- * created: 2018/1/22
- * describe: 页脚
- */
-.footer .container{
-    font-size: 20px;
-    color: blue;
-}
+@charset "UTF-8";.footer .container{font-size:20px;color:#00f}

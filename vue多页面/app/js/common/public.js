@@ -5,7 +5,6 @@
  */
 "use strict";
 define(function(require, exports, module) {
-  require('layer');
 
   var $public = function() {
     this.init.apply(this, arguments);

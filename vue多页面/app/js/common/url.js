@@ -5,10 +5,11 @@
  */
 "use strict";
 define(function (require, exports, module) {
-  top.window.basePath = '/test/';
+  top.window.basePath = '/API/';
   var base = top.window.basePath;
   var URL = {
-
+    "test": base + 'hiring',
+    "test2": 'static/mock/test.json'
   };
   module.exports = URL;
 });

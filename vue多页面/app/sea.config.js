@@ -12,8 +12,6 @@ seajs.config({
     * 公用的js
     * =========================================
     * */
-    "seajsText": "seajs.text.js",
-    "seajsCss": "seajs-css.js",
     "vue": "lib/vue.js",
     "jquery": "lib/jquery/1.9.1/jquery.min.js",
     "layer": "lib/layer/2.4/layer.js",
@@ -27,6 +25,6 @@ seajs.config({
      * */
     "welcomeIndex": "js/welcome/index.js"
   },
-  preload: ["seajsText", "seajsCss", "vue", "jquery"], /*配置提取预加载模块，全局模块，所以页面都需要使用的模块*/
+  preload: ["vue", "jquery", 'layer'], /*配置提取预加载模块，全局模块，所以页面都需要使用的模块*/
   debug: true // 调试模式
 });
