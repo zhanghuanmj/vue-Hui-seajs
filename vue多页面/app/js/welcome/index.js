@@ -21,17 +21,22 @@ define(function (require, exports, module) {
       }
     },
     methods: {
-      getData: function () {
+      /*
+      * params: 接收参数
+      * return: 返回参数
+      * function: 方法功能
+      * */
+      getTestData: function () {
         $public.getRequest({
           url: $url.test2,
           type: 'GET',
         }, function (res) {
-          console.log('d', res);
+
         });
       }
     },
     mounted: function () {
-      this.getData();
+      this.getTestData();
     },
     computed: {
 
